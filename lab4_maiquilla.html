@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="lab4_maiquilla.js"></script>
+    <style>
+        body {
+            text-align: justify;
+            background-color: lightgreen;
+        }
+        
+        h1 {
+            text-shadow: 3px 2px darkblue;
+            text-align: center;
+            font-size: 40px;
+        }
+        
+        div {
+            border: solid;
+            1px;
+            padding: 10px;
+            height: 100%;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <marquee>
+        <h1> MANG KANOR AIRLINE EXPRESS ONLINE BOOKING </h1></marquee>
+
+    <br>
+    <div>
+        <h2>Passenger and Flight Details:</h2>
+        <hr>
+        <h4>Last Name:  <input type="text" id="a"></h4>
+
+        <h4>First Name:    <input type="text" id="b"></h4>
+
+        <h4>Gender: <select id="c">
+            <option value="male"> Male </option>
+            <option value="female"> Female </option>
+        </select></h4>
+
+        <h4>Email Address:    <input type="text" id="d"></h4>
+
+        <hr>
+        <h4>Origin:    <input type="text" id="e"></h4>
+
+        <h4>Destination: <input type="text" id="f"></h4>
+
+        <h4>Departure Date: <input type="date" id="depart"> </h4>
+
+        <h4>Return Date:  <input type="date" id="ret"></h4>
+    </div>
+
+    <br> &nbsp&nbsp
+    <button onclick="generator()" style="width:80px;height:40px;">SUBMIT</button>
+
+    <p id="rate"></p>
+    <p id="rates"></p>
+    <p id="rate1"></p>
+    <p id="rate2"></p>
+    <p id="rate3"></p>
+    <p id="rate4"></p>
+    <p id="rate5"></p>
+    <p id="rate6"></p>
+    <p id="rate7"></p>
+    <p id="rate8"></p>
+
+</body>
+
+</html>
